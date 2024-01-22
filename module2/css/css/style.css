@@ -1,0 +1,16 @@
+body 
+{
+margin: 0;
+padding: 0;
+background-color: lightgray;
+}
+div 
+{
+width: 60%;
+height: auto;
+margin: auto; 
+background-color: aquamarine !important;
+padding: 25px;
+margin-top: 5%;
+
+}

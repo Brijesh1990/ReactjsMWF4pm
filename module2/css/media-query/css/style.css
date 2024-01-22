@@ -1,0 +1,102 @@
+body 
+{
+    margin: 0;
+    padding: 0;
+    background-color: lightgray;
+
+}
+
+#content 
+{
+    width: 70%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+}
+.box1 
+{
+    width: 50%;
+    height: 380px;
+    background-color: white;
+    margin-top: 8%;
+    background: url('https://images.pexels.com/photos/1590549/pexels-photo-1590549.jpeg') no-repeat;
+    position: relative;
+    background-size: cover;
+}
+.text-overlay
+{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(5,0,0,0.8);
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    color: white;
+    text-align: center;
+}
+.box2 
+{
+    width: 50%;
+    height: 380px;
+    background-color: black;
+    margin-top: 8%;
+}
+
+/* media query device breakpoints */
+
+/* mobiles */
+@media only screen and (min-width:320px) and (max-width:480px)
+{
+body 
+{
+margin: 0;
+padding: 0;
+background-color: aquamarine;
+
+}
+.box1 
+{
+    width: 100% !important;
+    height: 380px;
+    background-color: white;
+    margin-top: 8%;
+    background: url('https://images.pexels.com/photos/1590549/pexels-photo-1590549.jpeg') no-repeat;
+    position: relative;
+    background-size: cover;
+}
+.text-overlay
+{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(5,0,0,0.8);
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    color: white;
+    text-align: center;
+}
+.box2 
+{
+    width: 100% !important;
+    height: 380px;
+    background-color: black;
+    margin-top: 8%;
+}
+
+}
+/* tabs */
+@media only screen and (min-width:481px) and (max-width:767px)
+{
+    
+}
+/* laptops */
+@media only screen and (min-width:768px) and (max-width:1024px)
+{
+    
+}
+/* desktop  large devices*/
+@media only screen and (min-width:1025px) and (max-width:1420px)
+{
+    
+}
