@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script>
+        function valid()
+        {
+            if(document.frm.email.value=="")
+            {
+              document.getElementById("error").innerHTML="Please enter your email";
+              document.frm.email.focus();
+              return false;   
+            }
+            // check valid email address regular expression
+            var em=/^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|.(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+
+            if(!em.test(document.frm.email.value))
+            {
+             document.getElementById("error").innerHTML="Please enter your valid  email address";
+              document.frm.email.focus();
+              return false;   
+            }
+        }
+    </script>
+    <style>
+        #error 
+        {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+
+    <center>
+    <form name="frm" id="frm" action="welcome.html" onsubmit="return valid(this.value)">
+        Enter your email :<input type="text" name="email" id="email" placeholder="Enter email *">
+        <br>
+        <span id="error"></span>
+        <br>
+        <button type="submit">Register</button>
+    </form>
+    </center>
+    
+</body>
+</html>

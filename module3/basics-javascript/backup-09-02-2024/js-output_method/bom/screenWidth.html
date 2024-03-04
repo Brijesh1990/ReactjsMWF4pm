@@ -1,0 +1,26 @@
+<script>
+    // document.write(screenX);
+    // document.write(window.screenX);
+
+    // document.write(screen.availWidth);
+    // document.write(screen.availHeight);
+    // resposnive
+    // document.write(window.innerWidth);
+    // document.write(window.innerHeight);
+    var w;
+    function win()
+    {
+        w=window.open('','','width=100px, height=100px');
+        w.focus();
+    }
+    
+    function res()
+    {
+        w.resizeBy(50,50);
+        w.focus();
+    }
+
+</script>
+
+<button type="button" onclick="win()">window open</button>
+<button type="button" onclick="res()">window resize</button>

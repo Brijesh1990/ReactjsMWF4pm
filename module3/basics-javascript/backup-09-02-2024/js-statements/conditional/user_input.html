@@ -1,0 +1,19 @@
+Enter a value :<input type="text" id="a" placeholder="a values">
+<br><br>
+Enter b value :<input type="text" id="b" placeholder="b values">
+<br><br>
+<button type="button" onclick="ad()">Add Two Numbers</button>
+<br><br>
+<p id="demo"></p>
+<script>
+  function ad()
+  {
+    let a=parseInt(document.getElementById("a").value);
+    let b=parseInt(document.getElementById("b").value);
+    let c=a+b;
+    //return c=a+b;
+    document.getElementById("demo").innerHTML="Additions of numbers is :"+c;
+  }
+
+
+</script>

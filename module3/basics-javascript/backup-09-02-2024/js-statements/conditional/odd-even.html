@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <!-- take input from users -->
+    <p  id="demo"></p>
+    <div class="conatiner mt-5 p-4 w-50 mx-auto">
+        <h5>Check odd even Numbers </h5>
+        <form onsubmit="return Test(this.value)">
+            <div class="input-group">
+                <input type="text" name="num" id="num" onblur="return Display(this.value)" placeholder="Enter Number for check *" class="form-control">
+               
+            </div>
+
+            <div class="input-group mt-2">
+                <!-- <input type="submit" name="sub" id="chk" value="Check !" class="btn btn-lg btn-danger" disabled> -->
+
+                <input type="button" name="sub" id="chk" value="Check !" class="btn btn-lg btn-danger" disabled onclick="Test()">
+            </div>
+        </form>
+    
+    </div>
+    
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script>
+    function Display()
+    {
+        //alert('hi')
+        document.getElementById("chk").disabled=false;
+    }
+
+    function Test()
+    {
+        let n=document.getElementById("num").value;
+        if(n%2==0)
+        {
+            // document.write('Hey this is even numbers');
+            // document.getElementById("demo").innerHTML="Hey this is even numbers";
+
+            // fancy messages swal sweet2 alert messages
+
+ Swal.fire({
+  title: "success!",
+  text: "This is even numbers!",
+  icon: "success"
+});
+
+        }
+        else 
+        {
+            // document.write('Ohh this is odd numbers');   
+            //document.getElementById("demo").innerHTML="Oh this is odd numbers";
+            Swal.fire({
+  title: "success!",
+  text: "This is odd numbers!",
+  icon: "error"
+});
+
+        }
+    }
+
+
+</script>
+
+</body>
+</html>

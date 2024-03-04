@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+    <style>
+        #MainFunction
+        {
+            width: 50%;
+            height: auto;
+            margin: auto;
+            display: none;
+            text-align: center;
+            position: relative;
+        }
+        #load 
+        {
+            width: 450px;
+            height: 350px;
+            position: absolute;
+            top: 10%;
+            left: 35%;
+            background: url('https://i.pinimg.com/originals/c7/e1/b7/c7e1b7b5753737039e1bdbda578132b8.gif') no-repeat;
+            background-size: 450px 350px;
+        }
+    </style>
+</head>
+<body onload="Display()">
+    <div id="load"></div>
+    <div id="MainFunction">
+    <h1>Hi i am just waiting</h1>
+    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum asperiores amet repellendus? Possimus excepturi voluptates soluta pariatur. Commodi cupiditate ducimus eum illum doloremque obcaecati explicabo? Et, officia! Sequi, assumenda velit!</p>
+    </div>
+    <script>
+     var Myvar; 
+     function Display()
+     {
+        Myvar=setTimeout("myFunction()",2000);
+     }
+     function myFunction()
+     {
+        document.getElementById("MainFunction").style="display:block";
+        document.getElementById("load").style="display:none";
+     }
+    </script>
+</body>
+</html>
