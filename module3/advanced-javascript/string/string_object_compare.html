@@ -1,0 +1,16 @@
+<script>
+    // string object never will be compaired
+    function display()
+    {
+    //    let str1=new String("brijesh");
+    //    let str2=new String("brijesh");
+    //    document.getElementById("demo").innerHTML=str1==str2;
+
+       let str1=new String("brijesh");
+       let str2=new String("brijesh");
+       document.getElementById("demo").innerHTML=str1===str2;
+       
+    }
+</script>
+<p id="demo"></p>
+<button type="button" onclick="display()">compare</button>

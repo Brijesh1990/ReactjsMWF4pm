@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='https://code.jquery.com/jquery-3.7.1.min.js'></script>
+    <script>
+        function str(val)
+        {
+           $.ajax({
+                type:"GET",
+                url:"getdata.html",
+                data:"comp="+val,
+                success:function(data){
+                   $("#emp").html(data);
+                }
+
+           });
+        }
+    </script>
+</head>
+<body>
+    
+    <!-- ajax : asyunchrounous javascript and xml
+        aynchrounous 
+        javascript called events
+        xml:x-tensible markup language (load server data)
+    -->
+
+
+    <select id="comp" onchange="return str(this.value)">
+        <option value="">select company</option>
+        <option value="tops technology">Tops technology</option>
+    </select>
+    <br><br>
+
+    <table id="emp">
+        <tr></tr>
+    </table>
+</body>
+</html>
