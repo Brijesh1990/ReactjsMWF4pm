@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+
+    <center>
+        <h3>Note : please fill all in uppercase</h3>
+        <form>
+            Enter Name : <input type="text" id="name" placeholder="Name *" onblur="return chng(this.value)">
+            <br><br>
+            
+            Enter Email : <input type="text" id="email" placeholder="Email *" onblur="return chng(this.value)">
+            <br><br>
+            <input type="submit" value="Send">
+        </form>
+    </center>
+
+    <script>
+    function chng()
+    {
+        var fname=document.getElementById("name");
+        fname.value=fname.value.toUpperCase();
+
+        var em=document.getElementById("email");
+        em.value=em.value.toUpperCase();
+    }
+
+   </script> 
+    
+</body>
+</html>
