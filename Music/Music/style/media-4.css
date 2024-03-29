@@ -1,0 +1,177 @@
+@media (min-width :320px) and (max-width : 480px) {
+    /* main container */
+
+    .main-container {
+        height: 900px;
+    }
+
+    .main-container .container-img {
+        height: 900px;
+    }
+
+    .main-container .header-container .header-menu .list-menu {
+        /* display: block !important; */
+    }
+    .navbar ul li 
+    {
+        display:block !important;
+    }
+
+    .header-container {
+        padding: 5px;
+    }
+
+    .main-container .header-container .header-btn .ticket-btn {
+        display: none;
+    }
+
+    .main-container .header-container .header-btn .menu-btn {
+        display: block;
+    }
+
+    .main-container .carousal-container {
+        width: 90%;
+        top: 25%;
+        left: 5%;
+        right: 5%;
+    }
+
+    .main-container .carousal-container .vibe {
+        font-family: "Satisfy", cursive;
+        font-size: 25px;
+    }
+
+    .main-container .carousal-container .name {
+        font-size: 40px;
+    }
+
+    /* about-container */
+
+    .about-container {
+        height: 212rem;
+    }
+
+    .about-container .about-container-img {
+        height: 212rem !important;
+    }
+
+
+    .about-container .about-album {
+        width: 90%;
+        left: 0%;
+    }
+
+    .about-container .about-album .about-part {
+        display: block;
+    }
+
+    .about-container .about-album .about-part .singer-img {
+        width: 90%;
+    }
+
+    .about-container .about-album .about-part .about_content {
+        width: 100%;
+        margin: auto;
+    }
+
+    .about-container .about-container-img {
+        height: 192rem;
+    }
+
+    /* upcoming shoe */
+
+    .upcoming-show-container .upcoming-show-list .show-item {
+        display: block !important;
+    }
+
+    .upcoming-show-container .upcoming-show-list .show-item .show-date {
+        width: 80%;
+    }
+
+    .upcoming-show-container .upcoming-show-list .show-item .show-title {
+        width: 80%;
+    }
+
+    .upcoming-show-container .upcoming-show-list .show-item .show-location {
+        width: 80%;
+    }
+
+    .upcoming-show-container .upcoming-show-list .show-item .show-time {
+        width: 80%;
+    }
+
+    .upcoming-show-container .upcoming-show-list .show-item .showBtn {
+        width: 40%;
+    }
+
+    /* footer section */
+
+    .footer {
+        height: 68rem !important;
+    }
+
+    .footer .footer-content .footer-top .footer-part-1 {
+        width: 70% !important;
+        margin: auto !important;
+    }
+
+    .footer .footer-content .footer-top .footer-part-2 {
+        display: none !important;
+    }
+
+    .footer .footer-content .footerContent,
+    .footer .footer-content .footerContent .footer-content-1,
+    .footer .footer-content .footerContent .footer-content-2,
+    .footer .footer-content .footerContent .footer-content-3 {
+        height: auto !important;
+        width: 80% !important;
+        margin: 5px auto !important;
+    }
+
+    .footer-content-1 .info-box .info-icon,
+    .footer-content-2 .info-box .info-icon {
+        width: 65px;
+        height: 65px;
+        font-size: 27px;
+        color: #fff;
+        border-radius: 50%;
+        line-height: 65px;
+        background: linear-gradient(45deg, #503aca 0%, #ea34ff 100%);
+    }
+
+    /* about page */
+
+    .about-main-container {
+        height: 13rem;
+    }
+
+    .about-main-container .about-file-info {
+        width: 80%;
+    }
+
+    /* pages */
+    .tickets-page .show-item {
+        display: block !important;
+    }
+
+    .tickets-page .show-item .show-date {
+        width: 80%;
+    }
+
+    .tickets-page .show-item .show-title {
+        width: 80%;
+    }
+
+    .tickets-page .show-item .show-location {
+        width: 80%;
+    }
+
+    .tickets-page .show-item .show-time {
+        width: 80%;
+    }
+
+    .tickets-page .show-item .showBtn {
+        width: 40%;
+    }
+
+}

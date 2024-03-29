@@ -1,0 +1,88 @@
+body 
+{
+margin: 0;
+padding: 0;
+overflow-x: hidden;
+background-color: #364150 !important;
+}
+.dashboard
+{
+margin: 0;
+padding: 0;
+overflow-x: hidden;
+background-color: white !important;
+}
+.login-frm
+{
+    border-radius: 10px;
+
+}
+.header-link li 
+{
+    display: block;
+}
+.header-link li img 
+{
+    width: 75px;
+    height: 75px;
+}
+.header-link a 
+{
+    list-style: none;
+    text-decoration: none;
+    list-style-type: none;
+    color: black;
+}
+.nav 
+{
+    width: 100%;
+    height: auto;
+}
+.navbar ul li
+{
+    display: inline-block;
+    padding: 0px 20px;
+    text-decoration: none;
+    list-style: none;
+}
+.navbar a 
+{
+    text-decoration: none;
+    list-style: none;
+    list-style-type: none;
+    color: white;
+}
+.profile-navbar li 
+{
+    display: inline-block;
+    padding: 0px 12px;
+    text-decoration: none;
+    list-style: none;
+}
+.profile-navbar a 
+{
+    text-decoration: none;
+    list-style: none;
+    list-style-type: none;
+    font-size: 16px;
+    font-weight: 300;
+
+}
+.tops-welcm
+{
+    display: none !important;
+}
+@media only screen and (min-width:320px) and (max-width:480px)
+{
+.navbar ul li 
+{
+    display:block !important;
+    padding: 15px 2px;
+    text-decoration: none;
+    list-style: none;
+}
+.tops-welcm
+{
+    display: block !important;
+}
+}

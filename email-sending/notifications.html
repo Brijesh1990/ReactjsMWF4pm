@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Tops hrms</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    
+</head>
+<body class="dashboard">
+    <!-- dashboard headear -->
+    <section id="dashboard-header" class="container-fluid p-2 shadow">
+     <div class="row">
+        <div class="col-md-9">
+            
+            <a href="dashboard.html"><img src="images/logo-header.png" class="img-fluid"></a>
+        </div>
+        <div class="col-md-3">
+            <ul class="header-link">
+               <li class="dropdown"><a class="drodown-toggle" data-bs-toggle="dropdown" href=""><img src="images/brij.png" class="img-fluid rounded-circle">Brijesh Pandey</a>
+            
+                <ul class="dropdown-menu p-4 mt-4">
+                    <li><a href="manageprofile.html">Manage Profile</a></li>
+                    <li><a href="changepassword.html">Change Password</a></li>
+                    <li><a href="notifications.html">Manage Notifications</a></li>
+                    <li class="mt-3"><a href="" class="btn btn-danger bg-danger text-white" data-bs-toggle="modal" data-bs-target="#logout">Logout <span class="bi bi-power"></span></a></li>
+                </ul>
+            
+            
+            </li> 
+            </ul>
+        </div>
+     </div>   
+    </section>
+    <!-- dashboard navbar -->
+    <nav class="nav navbar navbar-expand-md bg-dark navbar-dark text-white">
+        <button type="button" class="btn btn-sm bg-white p-2 m-0 navbar-toggler border border-0 position-relative ms-2" data-bs-toggle="collapse" data-bs-target="#coll">
+            <span class="bi bi-grid-3x3-gap-fill text-dark  fs-2"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="coll">
+            <ul>
+                <li><a href="dashboard.html"><span class="bi bi-house"></span> Home</a></li>
+                <li><a href="request.html">MyRequest</a></li>
+                <li><a href="report.html">Report</a></li>
+                <li><a href="help.html"><span class="bi bi-question-circle"></span>Help</a></li>
+            </ul>
+        </div>
+
+        <h4 class="fs-6 p-2 tops-welcm">Welcome to : Tops Technology PVT LTD HRMS</h4>
+    </nav>
+    <!-- dashboard content -->
+    <div class="dashborad-content container mt-3">
+        <div class="row">
+            <div class="col-md-4 p-3">
+                    <div class="card">
+                    <div class="card-body shadow">
+                        <ul class="header-link">
+                            <li><a  href=""><img src="images/brij.png" class="img-fluid rounded-circle ms-5"></a>
+                         
+                             <ul class="p-4 mt-2">
+                                 <li><a href="manageprofile.html">Manage Profile</a></li>
+                                 <li><a href="changepassword.html">Change Password</a></li>
+                                 <li><a href="notifications.html">Manage Notifications</a></li>
+                                 <li class="mt-3"><a href="" class="btn btn-danger bg-danger text-white" data-bs-toggle="modal" data-bs-target="#logout">Logout <span class="bi bi-power"></span></a></li>
+                             </ul>
+                         
+                         
+                         </li> 
+                         </ul>
+                    </div>
+                </div>
+               
+            </div>
+         
+            <!-- attendance request -->
+            <div class="col-md-8 p-3">
+                <div class="card border  border-1">
+                    <div class="card-body">
+
+                        <h5>Manage Notifications</h5>
+                        <hr class="border border-1 border-dark w-25">
+           
+                        <h6>Total Notifications <span class="bi bi-bell fs-2"></span><span class="badge badge-lg bg-danger">0</span></h6>
+           
+                    </div>
+                    </div>
+                </div>
+
+          
+        </div>
+    </div>
+    <!-- dashboard footer -->
+
+    <div class="container-fluid p-3 bg-dark">
+    
+        <p class="text-center text-white">2016 © TOPS Technologies.</p>
+
+    </div>
+    <!-- logout modal here -->
+    <div class="modal fade" role="dialog" id="logout">
+        <div class="modal-dialog">
+            <div class="modal-content p-5 mt-5">
+                <center>
+                  <h3 class="fs-5">Are you sure to Logout here ?</h3>
+                  <button type="button" class="btn btn-sm btn-success text-white mt-3" onclick="lg()">Ok</button>
+                  <button type="button" class="btn btn-sm btn-danger text-white ms-3 mt-3" data-bs-dismiss="modal">Cancel</button>
+
+                </center>    
+            </div>
+        </div>
+    </div>
+     <!-- login js here -->
+   <script src="js/login.js"></script>
+</body>
+</html>
