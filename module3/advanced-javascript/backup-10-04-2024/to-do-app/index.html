@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset='utf-8'>
+<meta http-equiv='X-UA-Compatible' content='IE=edge'>
+<title>Page Title</title>
+<meta name='viewport' content='width=device-width, initial-scale=1'>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+<link rel="stylesheet" href="css/style.css">
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+
+</head>
+<body onload="MainFun()">
+
+<!-- add header -->
+<section id="header" class="sticky-top bg-white">
+<div class="container-fluid shadow p-3">
+<div class="row">
+<div class="col-md-3">
+<h3><span class="text-info">Po</span>rtfolio<span class="text-info">Ap</span>p</h3>
+</div>
+<div class="col-md-6">
+<form>
+<div class="input-group">
+<input type="text" placeholder="search anything here....." class="form-control">
+<button type="button" class="btn btn-sm btn-dark text-white"><span class="bi bi-search"></span>
+</div>
+</form>
+</div>
+<div class="col-md-3">
+<button type="button" class="btn btn-sm btn-dark text-white" data-bs-toggle="modal" data-bs-target="#account">Account<span class="bi bi-person"></span></button>
+<span class="bi bi-twitter fs-5 ms-2"></span>
+<span class="bi bi-snapchat fs-5 ms-2"></span>
+<span class="bi bi-whatsapp fs-5 ms-2"></span>
+<span class="bi bi-instagram fs-5 ms-2"></span>
+</div>
+
+</div>
+</div>
+</section>
+
+<!-- navbar start here -->
+<nav class="nav navbar navbar-expand-md bg-dark mt-0 p-2  w-100">
+<a href="" class="navbar-brand text-white ms-5">Best Portfolio webpage</a>
+<!-- toggler button -->
+<button type="button" class="navbar-toggler btn btn-sm bg-dark fs-2  text-white" data-bs-toggle="collapse" data-bs-target="#clk-btn">
+<span class="bi bi-grid text-white"></span>
+</button>
+<div class="collapse navbar-collapse" id="clk-btn">
+<ul class="navbar-link">
+<li><a href="#">Home</a></li>
+<li><a href="#">About us</a></li>
+<li class="dropdown"><a class="dropdown-toggle" data-bs-toggle="dropdown" href="#">Our work</a>
+<ul class="dropdown-menu bg-dark text-white" style="min-width:180px !important">
+<li><a href="#">Laravel App</a></li>
+<li><a href="#">React js App</a></li>
+<li><a href="#">Frontend App</a></li>
+<li><a href="#">Angular App</a></li>
+<li><a href="#">PHP js App</a></li>
+<li><a href="#">Node js App</a></li>
+</ul>
+</li>
+<li><a href="#">Feedback</a></li>
+<li><a href="#">Contact us</a></li>
+<li><a href="#">Our Services</a></li>
+</ul>
+</div>
+</nav>
+<div class="container-fluid  p-5 mt-0 shadow">
+<h2>Create ToDO App </h2>
+<hr class="border border-1 border-dark w-25">
+
+<div class="row">
+<div class="col-md-3 shadow p-5 mt-3">
+<h4 class="text-center">Profile</h4>
+<p class="text-center">
+<img src="http://onlineportfolio.byethost14.com/img/yimage.jpg" class="img-fluid w-75 rounded-circle">
+<p class="h4 text-center">Brijesh kumar pandey</p>
+
+</div>
+
+<!-- add data using javascript -->
+<div class="col-md-8 ms-5 shadow p-5 mt-3 mange-profile">
+<h2 class="h5">Add data<span class="bi bi-person"></span></h2>
+<hr class="border border-1 border-dark w-25">
+<form name="addForm" id="addForm">
+<div class="input-group col-md-12 mt-3">
+<input type="text" onkeyup="enableBTN('submit')" name="item"  id="item" placeholder="Add Data"  class="form-control" onfocus="on">
+
+<input type="submit"  id="submit" value="AddData"  class="btn btn-md btn-dark text-white" disabled>
+</div>
+</form>
+<!-- manage data -->
+<h2 class="mt-2 p-2 h6">Manage All Data<span class="bi bi-person"></span></h2>
+<form id="addForm">
+<ul class="list-group" id="items">
+
+</ul> 
+</form> 
+</div>
+
+</div>        
+</div>
+
+<!-- footer -->
+<section class="p-5 bg-dark">
+<div class="row">
+<div class="col-md-4">
+<ul class="footer-links">
+<li><a href="" class="h3 text-white">Links</a></li>
+<li><a href="" class="text-white">About us</a></li>
+<li><a href="" class="text-white">Contact us</a></li>
+<li><a href="" class="text-white">Our Services</a></li>
+<li><a href="" class="text-white">Blogs</a></li>
+<li><a href="" class="text-white">Privacy & Policy</a></li>
+</ul>
+</div>
+<div class="col-md-4">
+<ul class="footer-links">
+<li><a href="" class="h3 text-white">Our Services</a></li>
+<li><a href="" class="text-white">About us</a></li>
+<li><a href="" class="text-white">Contact us</a></li>
+<li><a href="" class="text-white">Our Services</a></li>
+<li><a href="" class="text-white">Blogs</a></li>
+<li><a href="" class="text-white">Privacy & Policy</a></li>
+</ul>
+</div>
+<div class="col-md-4">
+<ul class="footer-links">
+<li><a href="" class="h3 text-white">Social Media</a></li>
+<li><a href="" class="text-white">Subscrive Us</a></li>
+<li><a href="" class="text-white"><input type="text" placeholder="Subscribe Us" class="form-control"></a></li>
+<li><a href="" class="text-white"><span class="bi bi-facebook fs-2 ms-0"></span>
+<span class="bi bi-twitter fs-2 ms-4"></span>
+<span class="bi bi-snapchat fs-2 ms-4"></span>
+<span class="bi bi-whatsapp fs-2 ms-4"></span>
+<span class="bi bi-instagram fs-2 ms-4"></span>
+</a></li>
+
+</ul>
+</div>
+</div>
+</section>
+
+<!-- create an account modal -->
+<div class="modal fade" role="dialog" id="account">
+<div class="modal-dialog" style="min-width:55%; margin-top: 5%;">
+<div class="modal-content p-0">
+<!-- create account form -->
+<div class="row">
+<div class="col-md-6 bg-dark text-white p-5 bg-hide">
+<ul class="footer-links">
+<li><a href="" class="h3 text-white">Why Join with Us</a></li>
+<li><a href="" class="text-white">24x7 support</a></li>
+<li><a href="" class="text-white">Emergency support</a></li>
+<li><a href="" class="text-white">No Cancelations charges</a></li>
+<li><a href="" class="text-white">Free refund policy</a></li>
+<li><a href="" class="text-white">Provides Mediclame</a></li>
+<li><a href=""><img src="images/1.png" class="img-fluid"></a></li>
+</ul>
+</div>
+<div class="col-md-6 p-5">
+<h3>Create Account <button type="button" class="btn btn-sm border border-0 bg-light text-danger fs-3 ms-3" data-bs-dismiss="modal">&times;</button></h3>
+<hr class="border border-1 border-dark w-50">
+
+<form>
+<div class="form-group mt-2">
+<input type="text" placeholder="Name *" class="form-control">
+</div>
+<div class="form-group mt-2">
+<input type="text" placeholder="Email *" class="form-control">
+</div>
+<div class="form-group mt-2">
+<input type="password" placeholder="Password *" class="form-control">
+</div>
+
+<div class="form-group mt-2">
+<input type="text" placeholder="Phone *" class="form-control">
+</div>
+
+<div class="form-group mt-2">
+<textarea placeholder="Address *" class="form-control"></textarea>
+</div>
+
+<div class="form-group mt-2">
+<input type="submit" value="SignUp"  class="btn btn-sm btn-dark text-white">
+<input type="reset" value="Reset"  class="btn btn-sm btn-danger ms-2 text-white">
+</div>
+
+<div class="form-group mt-2">
+<b>Already hav an Account ?<a href="login.html" class="ms-2">SignIn</a></b>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<!-- swwet alert -->
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<!-- main js -->
+<script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,66 @@
+body 
+{
+    margin: 0;
+    padding: 0;
+}
+#header
+{
+    z-index: 5 !important;
+    background-color: white;
+}
+.footer-links li
+{
+display: block;
+padding: 5px 5px;
+text-decoration: none;
+
+}
+.navbar 
+{
+    width: 100%;
+    height: auto;
+}
+.navbar-link li 
+{
+    display: inline-block !important;
+    padding: 5px 25px;
+
+}
+.navbar-link a 
+{
+    text-decoration: none;
+    list-style: none;
+    list-style-type: none;
+    color: white;
+    font-size: 18px;
+}
+.dropdown:hover .dropdown-menu
+{
+    display: block !important;
+}
+.footer-links a 
+{
+    text-decoration: none;
+    list-style: none;
+    list-style-type: none;
+    color: white;
+}
+@media only screen and (max-width:533px)
+{
+.mange-profile
+{
+margin: 0px !important;
+margin-top: 5% !important;
+
+}
+.navbar-link li 
+{
+display: block !important;
+padding: 5px 25px;
+
+}   
+.bg-hide
+{
+    display: none !important;
+}
+}

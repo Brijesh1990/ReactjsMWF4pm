@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <div id="demo"></div>
+    <script type="module">
+        import {header,nav,content,footer} from './header.js';
+        document.getElementById("demo").innerHTML=header()+nav()+content()+footer();
+        // document.getElementById("demo").innerHTML=nav();
+        // document.getElementById("demo").innerHTML=content();
+        // document.getElementById("demo").innerHTML=footer();
+        
+    </script>
+</body>
+</html>

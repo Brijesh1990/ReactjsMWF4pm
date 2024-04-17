@@ -1,0 +1,41 @@
+{
+    
+  "addfruitscategory":[
+    {
+        "id":1001,
+        "categoryname":"seed fruits"
+    },
+    {
+        "id":1001,
+        "categoryname":"non-seed fruits"
+    }
+  ],
+
+  "addfruits":[
+    {
+        "id":1,
+        "name":"mango",
+        "qty":3,
+        "oldprice":300,
+        "offerprice":245,
+        "description":"its good and higenic",
+        "added_date":"01-04-2024"
+    }
+ 
+  ],
+
+  "feedback":[
+    {
+        "id":1,
+        "name":"brijesh",
+        "email":"bkpandey.pandey@gmail.com",
+        "phone":300,
+        "rating":1,
+        "comment":"its not good and smeling after eat",
+        "added_date":"01-04-2024"
+    }
+ 
+  ]
+
+
+}

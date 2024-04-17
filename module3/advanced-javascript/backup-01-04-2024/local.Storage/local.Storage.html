@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script>
+        function display()
+        {
+            // var fname=localStorage.setItem("fname","brijesh");
+            // var result=localStorage.getItem("fname");
+            // console.log(result);       
+            localStorage.setItem("fname","brijesh");
+            var res=localStorage.getItem("fname");
+            // console.log(res);
+            document.getElementById("demo").innerHTML=res;
+        }
+    </script>
+</head>
+<body onload="display()">
+    <p id="demo"></p>
+</body>
+</html>

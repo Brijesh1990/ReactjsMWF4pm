@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <script>
+    /*  cookie is work client server 
+        cookie is not secured 
+        cookie is set user information on browsers
+        cookie is set for particular time limit   60*60*24 => 1 days  , 60*60*24*30  // 1 months
+        type of cookie  :
+          a) persistent cookie
+             examples : when systems and apps on or in case of off we stored temprary information from cookie.
+
+          b) non-persistent : when power off non-persistent cookie is automatically destroy from browers.
+
+            document.cookie = "username=John Doe; expires=Tue, 09 Apr 2024 10:00:00 UTC"; 
+    
+    */  
+
+    var username = "John Doe";
+    var password="b123456";
+
+    // cookie destroy 
+    document.cookie = "username=John Doe; expires=Tue, 09 Apr 2024 10:00:00 UTC; path=/;"; 
+    let x = document.cookie; 
+    console.log(x);
+    
+    
+     </script>   
+</body>
+</html>
