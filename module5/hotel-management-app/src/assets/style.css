@@ -1,0 +1,59 @@
+body 
+{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+.navbar 
+{
+    width: 100%;
+    height: auto;
+    background-color: #546e7a !important;
+}
+.navbar ul 
+{
+    margin-left: 45%;
+}
+.navbar ul li 
+{
+    padding: 1px 22px;
+    text-decoration: none;
+    display: inline-block;
+}
+.navbar a 
+{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+.navbar-toggler
+{
+    border: none !important;
+    background-color: #546e7a !important;
+    text-decoration: none !important;
+}
+.footer 
+{
+    width: 100%;
+    height: auto;
+    background-color: #546e7a !important;
+}
+@media only screen and (max-width:558px)
+{
+    .navbar ul li 
+{
+    padding: 1px 22px;
+    text-decoration: none;
+    display: block;
+}
+.input-group
+{
+    width: 100% !important;
+    height: auto !important;
+}
+.table 
+{
+    width: 100% !important;
+    height: auto !important;
+}
+}

@@ -1,0 +1,16 @@
+body 
+{
+    margin: 0;
+    padding: 0;
+    background-color: aqua;
+
+}
+.app 
+{
+    width: 50%;
+    height: auto;
+    margin: auto;
+    margin-top: 5%;
+    padding: 25px;
+    background-color: white;
+}
