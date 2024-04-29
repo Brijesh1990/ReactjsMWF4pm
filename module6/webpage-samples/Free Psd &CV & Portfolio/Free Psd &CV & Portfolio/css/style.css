@@ -1,0 +1,173 @@
+body 
+{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    background-color: #000000 !important;
+
+}
+html ul li 
+{
+    margin: 0;
+    padding: 0;
+}
+h1,h2,h3,h4,h5,h6 
+{
+    margin: 0;
+    padding: 0;
+}
+.header 
+{
+    width: 100%;
+    height: auto;
+    background-color: #000000;
+}
+
+.social-media a 
+{
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 15px 5px;
+    writing-mode:vertical-rl !important;
+    
+}
+
+.nav ul li 
+{
+    display: block;
+    text-decoration: none;
+    padding: 5px 0px;
+}
+
+.navbar-togg 
+{
+    background-color: #1b1b1b;
+    background-image: -webkit-linear-gradient(#1b1b1b,#000000);
+    background-image: -moz-linear-gradient(#1b1b1b,#000000);
+    background-image: -o-linear-gradient(#1b1b1b,#000000);
+    background-image: linear-gradient(to bottom,#1b1b1b,#000000);
+
+}
+.navbar a 
+{
+    color: white;
+    text-decoration: none;
+    list-style-type: none;
+}
+.navbar-brand
+{
+    font-size: 28px !important;
+}
+.portfolio-info h1 
+{
+    font-size: 55px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+.portfolio-info img 
+{
+    width: 100% !important;
+    height: 380px;
+}
+.social-media-contact a
+{
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+    display: block;
+    font-size: 22px;
+    padding: 25px 55px;
+    writing-mode:vertical-rl !important;
+
+}
+.bi-grid-3x3-gap 
+{
+    font-size: 20px;
+}
+
+#about 
+{
+    width: 100%;
+    height: auto;
+    color: white;
+}
+#about h1,#expertise h1,#skills h1,#portfolio h1,#blogs h1  
+{
+    font-size: 48px;
+    color: #a99561 !important;
+}
+#about p
+{
+color: white;
+}
+
+.about-us 
+{
+    width: 60%;
+    height: 450px !important;
+    margin: auto;
+    border-top: solid 2px white;
+    border-radius:  25px 25px 25px 25px;
+    
+
+}
+.about-us img 
+{
+ 
+    width: 20%;
+    height: 450px;
+    border-bottom: solid 2px white;
+    border-radius:  25px 25px 25px 25px;
+    transform: scale(1,1);
+    margin-top: -3% !important;
+    margin-left: 0%;
+    position: absolute;
+}
+#location,#skills 
+{
+    width: 100% !important;
+    height: auto !important;
+    margin: auto;
+    padding: 0px;
+    background-color: #1b1b1b;
+    background-image: -webkit-linear-gradient(#1b1b1b,#000000);
+    background-image: -moz-linear-gradient(#1b1b1b,#000000);
+    background-image: -o-linear-gradient(#1b1b1b,#000000);
+    background-image: linear-gradient(to right,#1b1b1b,#000000);
+}
+#expertise
+{
+    width: 100%;
+    height: auto;
+    color: white !important;
+}
+.adv-css 
+{
+    color: #a99561 !important;
+}
+
+#portfolio,#blogs
+{
+    width: 100%;
+    height: auto;
+}
+#portfolio p,#blogs p 
+{
+    font-size: 25px;
+}
+
+#portfolio img,#blogs img
+{
+    width: 100%;
+    height: 250px;
+    filter: brightness(50%);
+}
+
+
+@media only screen and (min-width:320px) and (max-width:480px)
+{
+
+
+}
