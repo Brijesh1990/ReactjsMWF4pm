@@ -1,0 +1,54 @@
+{
+    "contacts":[
+        {
+            "id":1001,
+            "name":"brijesh",
+            "email":"bkpandey@gmail.com",
+            "subject":"24x7 support",
+            "phone":9998003879,
+            "message":"hi i am brijesh"
+        }
+    ],
+
+    "feedback":[
+        {
+            "id":1001,
+            "name":"brijesh",
+            "email":"bkpandey@gmail.com",
+            "subject":"24x7 support",
+            "phone":9998003879,
+            "star":1,
+            "comment":"hi i am brijesh"
+        }
+    ],
+
+    "reviews":[
+        {
+            "id":1001,
+            "name":"brijesh",
+            "email":"bkpandey@gmail.com",
+            "star":5
+        }
+    ],
+
+    "customers":[
+        {
+            "id":1001,
+            "name":"brijesh",
+            "email":"bkpandey@gmail.com",
+            "subject":"24x7 support",
+            "phone":9998003879,
+            "address":"rajkot"
+        },
+        {
+            "id":1002,
+            "name":"rajesh",
+            "email":"rajesh@gmail.com",
+            "subject":"24x7 support",
+            "phone":9998003879,
+            "address":"rajkot"
+        }
+    ]
+}
+
+ /*http://localhost:4000/customers */
