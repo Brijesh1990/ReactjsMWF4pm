@@ -1,4 +1,4 @@
-import React from 'react'
+  import React from 'react'
 import { Link,Outlet } from 'react-router-dom'
 /* what is react router : navigate one page to another page i.e called routing
    React does not provides default routing libraries
