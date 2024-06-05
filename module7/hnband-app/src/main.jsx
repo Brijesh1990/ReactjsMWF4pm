@@ -13,6 +13,7 @@ import AdminLayout from './AdminLayout'
 import AdminLogin from './components/admin/AdminLogin'
 import AddBlogs from './components/admin/AddBlogs'
 import ManageBlogs from './components/admin/ManageBlogs'
+import AddBandCategory from './components/admin/AddBandCategory';
 import './assets/admin/css/style.css'
 ReactDOM.createRoot(document.getElementById('hn-band-app')).render(
   <React.StrictMode>
@@ -27,6 +28,7 @@ ReactDOM.createRoot(document.getElementById('hn-band-app')).render(
           <Route path='/admin-login/dashboard' element={<AdminLayout />} />
           <Route path='/admin-login/add-blogs' element={<AddBlogs />} />
           <Route path='/admin-login/manage-blogs' element={<ManageBlogs />} />
+          <Route path='/admin-login/add-band-category' element={<AddBandCategory/>} />
           
       </Routes>
     </Router>

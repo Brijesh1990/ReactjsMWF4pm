@@ -1,27 +1,48 @@
 {
   "band-category": [
-    {}
+    {
+      "id": "cab7"
+    },
+    {
+      "id": "d11a",
+      "bandcatagory": "akshay",
+      "date": "2024-05-29"
+    }
   ],
   "band-subcategory": [
-    {}
+    {
+      "id": "c5c8"
+    }
   ],
   "add-band": [
-    {}
+    {
+      "id": "16fd"
+    }
   ],
   "manage-contact": [
-    {}
+    {
+      "id": "b108"
+    }
   ],
   "manage-reviews": [
-    {}
+    {
+      "id": "eb22"
+    }
   ],
   "manage-bandcart": [
-    {}
+    {
+      "id": "7c5d"
+    }
   ],
   "manage-orders": [
-    {}
+    {
+      "id": "edea"
+    }
   ],
   "add-users": [
-    {}
+    {
+      "id": "6e59"
+    }
   ],
   "blogs": [
     {
@@ -37,6 +58,13 @@
       "photo": "https://static.toiimg.com/thumb/msid-110430509,imgsize-855660,width-400,resizemode-4/110430509.jpg",
       "descriptions": "Rahul Rajiv Gandhi is an Indian politician and a member of the Indian Parliament who represents the constituency of Wayanad, Kerala, in the Lok Sabha. He previously represented the constituency of Amethi, Uttar Pradesh.",
       "date": "2024-05-27"
+    },
+    {
+      "id": "07dc",
+      "title": "React Redux is best for state mangment ",
+      "photo": "https://i1.wp.com/www.ux-republic.com/wp-content/uploads/2016/11/logo-redux.png?fit=500%2C500&ssl=1",
+      "descriptions": "React Redux is best for state mangment",
+      "date": "2024-05-29"
     }
   ]
 }

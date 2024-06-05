@@ -17,7 +17,7 @@ export default function SidebarApp() {
       </a>
       <ul className="dropdown-menu text-black">
         <li>
-          <a href="/admin-login/add-blogs">Add BandCategory <span className='bi bi-music-note-list'></span></a>
+          <a href="/admin-login/add-band-category">Add BandCategory <span className='bi bi-music-note-list'></span></a>
         </li>
         <li>
           <a href="/admin-login/manage-blogs">Manage BandCategory <span className='bi bi-music-note-list'></span></a>
