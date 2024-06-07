@@ -1,4 +1,5 @@
 import React,{useState,useRef,useEffect} from 'react'
+import emailjs from '@emailjs/browser';
 import axios from 'axios'
 import { useNavigate } from 'react-router-dom'
 import { BiUser,BiMailSend,BiMobile,BiMapPin,BiLogoFacebook,BiLogoInstagram,BiLogoYoutube } from 'react-icons/bi'
@@ -14,6 +15,11 @@ axios.get(`http://localhost:8000/contact`).then((response)=>{
 })
 },[data])
 // stored all data of contact us form 
+// stored all service id in a varibales to send emails
+const YOUR_SERVICE_ID="service_znx6ifg";
+const YOUR_TEMPLATE_ID="template_tppnt3j";
+const YOUR_PUBLIC_KEY="pTcb6q47xuRiZaSQm";
+
 const name=useRef("");
 const email=useRef("");
 const phone=useRef("");
@@ -33,11 +39,13 @@ const AddContactFormHandeler=(e)=>
  }   
 // call insert api
 
+// email js sending  email via email js libraries
+emailjs.sendForm(YOUR_SERVICE_ID, YOUR_TEMPLATE_ID,e.target,YOUR_PUBLIC_KEY);
 axios.post(`http://localhost:8000/contact`,insert).then(()=>{
     // pass a message
     Swal.fire({
         title: "Good job!",
-        text: "Thanks for Contact with us we will contact with you soon!",
+        text: "Thanks for Contact with us we will send email your details to our admin the will contact with you soon!",
         icon: "success"
       });
 
@@ -74,19 +82,19 @@ return (
 <hr className='border border-x-slate-50 border-spacing-1' />
 <form onSubmit={AddContactFormHandeler}>
 <div className='p-2 m-0 mt-3'>
-    <input type='text' className='p-3 w-112 text-black' ref={name}  placeholder='Name *' />
+    <input type='text' className='p-3 w-112 text-black' name="name" ref={name}  placeholder='Name *' />
 </div>
 <div className='p-2 m-0 mt-3'>
-    <input type='text' className='p-3 w-112 text-black' ref={email} placeholder='Email *' />
+    <input type='text' className='p-3 w-112 text-black' name='email' ref={email} placeholder='Email *' />
 </div>
 <div className='p-2 m-0 mt-3'>
-    <input type='text' className='p-3 w-112 text-black' ref={phone} placeholder='Phone *' />
+    <input type='text' className='p-3 w-112 text-black' name='phone' ref={phone} placeholder='Phone *' />
 </div>
 <div className='p-2 m-0 mt-3'>
-    <input type='text' className='p-3 w-112 text-black' ref={subject} placeholder='Subject *' />
+    <input type='text' className='p-3 w-112 text-black' name='subject' ref={subject} placeholder='Subject *' />
 </div>
 <div className='p-2 m-0 mt-3'>
-    <textarea className='p-3 w-112 text-black' ref={message} placeholder='Message *'></textarea>
+    <textarea className='p-3 w-112 text-black' ref={message} name='message' placeholder='Message *'></textarea>
 </div>
 
 <div className='p-2 m-0 mt-3'>
@@ -118,7 +126,11 @@ return (
             <td>{row.phone}</td>
             <td>{row.subject}</td>
             <td>{row.message}</td>
-            <td><button type='button' onClick={()=>Navigate(`/delete-contact/${row.id}`)}><span className='bi bi-trash text-red-600'></span></button></td>
+            <td><button type='button' onClick={()=>Navigate(`/delete-contact/${row.id}`)}><span className='bi bi-trash text-red-600'></span></button>
+            
+            <button type='button' onClick={()=>Navigate(`/edit-contact/${row.id}`)}><span className='bi bi-pencil text-green-700'></span></button>
+            
+            </td>
             </tr>
             </>
         )
