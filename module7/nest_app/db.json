@@ -1,0 +1,117 @@
+{
+  "category": [
+    {
+      "id": "cd77",
+      "categoryphoto": "https://nest-grocery.vercel.app/assets/category/cat-13.png",
+      "categoryname": "Cake & Milk",
+      "date": "2024-06-17"
+    },
+    {
+      "id": "f3dd",
+      "categoryphoto": "https://nest-grocery.vercel.app/assets/category/cat-12.png",
+      "categoryname": "Oragnic Kiwi",
+      "date": "2024-06-17"
+    },
+    {
+      "id": "0ec0",
+      "categoryphoto": "https://nest-grocery.vercel.app/assets/category/cat-9.png",
+      "categoryname": "Red Apple",
+      "date": "2024-06-17"
+    },
+    {
+      "id": "0441",
+      "categoryphoto": "https://nest-grocery.vercel.app/assets/category/cat-11.png",
+      "categoryname": "Peach",
+      "date": "2024-06-17"
+    },
+    {
+      "id": "a530",
+      "categoryphoto": "https://nest-grocery.vercel.app/assets/category/cat-3.png",
+      "categoryname": "Snacks",
+      "date": "2024-06-17"
+    },
+    {
+      "id": "4afb",
+      "categoryphoto": "https://nest-grocery.vercel.app/assets/category/cat-1.png",
+      "categoryname": "Vegetables",
+      "date": "2024-06-17"
+    },
+    {
+      "id": "059a",
+      "categoryphoto": "https://nest-grocery.vercel.app/assets/category/cat-2.png",
+      "categoryname": "Straberry",
+      "date": "2024-06-17"
+    },
+    {
+      "id": "363a",
+      "categoryphoto": "https://nest-grocery.vercel.app/assets/category/cat-4.png",
+      "categoryname": "Black plum",
+      "date": "2024-06-17"
+    }
+  ],
+  "subcategory": [
+    {
+      "id": "c5c8"
+    }
+  ],
+  "products": [
+    {
+      "id": "16fd"
+    }
+  ],
+  "manage-contact": [
+    {
+      "id": "b108"
+    }
+  ],
+  "manage-reviews": [
+    {
+      "id": "eb22"
+    }
+  ],
+  "manage-bandcart": [
+    {
+      "id": "7c5d"
+    }
+  ],
+  "manage-orders": [
+    {
+      "id": "edea"
+    }
+  ],
+  "add-users": [
+    {
+      "id": "6e59"
+    }
+  ],
+  "blogs": [
+    {
+      "id": "2029",
+      "title": "is rahul gandhi get married this year after elections ?",
+      "photo": "https://www.livemint.com/lm-img/img/2024/05/25/600x338/INDIA-ELECTION-24_1716618747423_1716627351208.jpg",
+      "descriptions": "Rahul Rajiv Gandhi is an Indian politician and a member of the Indian Parliament who represents the constituency of Wayanad, Kerala, in the Lok Sabha. He previously represented the constituency of Amethi, Uttar Pradesh.",
+      "date": "2024-05-27"
+    },
+    {
+      "id": "98be",
+      "title": "is modi ji 400 + in this election ?",
+      "photo": "https://static.toiimg.com/thumb/msid-110430509,imgsize-855660,width-400,resizemode-4/110430509.jpg",
+      "descriptions": "Rahul Rajiv Gandhi is an Indian politician and a member of the Indian Parliament who represents the constituency of Wayanad, Kerala, in the Lok Sabha. He previously represented the constituency of Amethi, Uttar Pradesh.",
+      "date": "2024-05-27"
+    },
+    {
+      "id": "07dc",
+      "title": "React Redux is best for state mangment ",
+      "photo": "https://i1.wp.com/www.ux-republic.com/wp-content/uploads/2016/11/logo-redux.png?fit=500%2C500&ssl=1",
+      "descriptions": "React Redux is best for state mangment",
+      "date": "2024-05-29"
+    },
+    {
+      "id": "ef64",
+      "title": "Its very tough to select bootstrap and tailwinds to upgrade wd",
+      "photo": "https://media.sitepen.com/blog-images/2021/04/Floating-on-Tailwind-CSS.png",
+      "descriptions": "Tailwind CSS is an open-source CSS framework. The main feature of this library is that, unlike other CSS frameworks like Bootstrap, it does not provide a series of predefined classes for elements such as buttons or tables",
+      "date": "2024-06-12"
+    }
+  ]
+}

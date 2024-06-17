@@ -6,39 +6,39 @@ import AdminHeader from './AdminHeader';
 
 
 function AddBandCategory() {
-  const bandcatagory =useRef("");
-  const date =useRef("");
+const bandcatagory =useRef("");
+const date =useRef("");
 
-   const AddBlogsFormHandeler=((e)=>{
- e.preventDefault();
+const AddBlogsFormHandeler=((e)=>{
+e.preventDefault();
 
- var insert={
- bandcatagory:bandcatagory.current.value,
- date:date.current.value
- }
- 
- axios.post(`http://localhost:4000/band-category`,insert).then(()=>{
-  Swal.fire({
-    title: "Thanks",
-    text: "Thanks your blogs addedd successfully",
-    icon: "success"
-  });
-  });
+var insert={
+bandcatagory:bandcatagory.current.value,
+date:date.current.value
+}
 
-  })
-  
+axios.post(`http://localhost:4000/band-category`,insert).then(()=>{
+Swal.fire({
+title: "Thanks",
+text: "Thanks your blogs addedd successfully",
+icon: "success"
+});
+});
 
-  return (
-    <>
-    
-   <AdminHeader />
+})
+
+
+return (
+<>
+
+<AdminHeader />
 {/* <!-- admin main content panel --> */}
 <div className="container-fluid admin-content"> 
 {/* <!-- admin sidebar panel --> */}
 <div className="row">
 <SidebarApp />
 <div className='col-md-8'>
-      <form onSubmit={AddBlogsFormHandeler}   encType='multipart/form-data'>
+<form onSubmit={AddBlogsFormHandeler}   encType='multipart/form-data'>
 
 
 <div className='form-group mt-4'>
@@ -54,12 +54,12 @@ function AddBandCategory() {
 <input type='submit' value="Added Blogs"  className='btn btn-md btn-dark text-white bg-dark' />
 </div>
 </form>
-    </div>
-    </div>
-    </div>
-    </>
-    
-  )
+</div>
+</div>
+</div>
+</>
+
+)
 }
 
 export default AddBandCategory

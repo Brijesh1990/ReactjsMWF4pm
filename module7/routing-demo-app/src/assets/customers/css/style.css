@@ -1,0 +1,285 @@
+@font-face {
+    font-family: alex;
+    src: url('../fonts/AlexBrush-Regular.ttf');
+}
+body 
+{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    box-sizing: border-box;
+
+}
+#header 
+{
+    width: 100%;
+    height: auto;
+    background-color: #f3f3f3;
+}
+.header-navbar li 
+{
+    display: inline-block;
+    padding: 15px 18px;
+}
+.header-navbar a 
+{
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+}
+.dropdown-menu 
+{
+    background-color: #f3f3f3 !important;
+}
+.input-group input 
+{
+    border-radius: 50px 0px 0px 50px;
+}
+.input-group-text
+{
+    border-radius: 0px 50px 50px 0px !important;
+}
+
+.navbar-brand
+{
+    font-family: alex;
+    color: white;
+}
+
+.navbar-link li 
+{
+    padding: 2px 20px;
+    display: inline-block;
+
+}
+.navbar-link a 
+{
+    color: white;
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 17px;
+}
+.active 
+{
+    color: #ff4bdf !important;
+}
+.navbar-collapse
+{
+    margin-left: 25%;
+}
+.carousel-inner 
+{
+    width: 100%;
+    height: 400px;
+    position: relative;
+}
+.carousel-inner img 
+{
+    width: 100%;
+    height: 400px;
+}
+.carousel-caption
+{
+    background-color: rgba(100,0,0,0.5);
+    margin-top:25% !important;
+    position: absolute !important;
+  
+}
+
+.content-man
+{
+    width: 100% !important;
+    height: 310px !important;
+    border: solid 0px black;
+    background-clip: border-box !important;
+    clip-path: fill-box;
+}
+.content-man img 
+{
+    width: 100%;
+    height: auto;
+    margin-top: -25%;
+   
+}
+.collection
+{
+    width: 20%;
+    background-color: rgba(247, 242, 242, 0.8) !important;
+    margin-left: 8% !important;
+    margin-top: 8% !important;
+    color: black !important;
+}
+
+.featured-link li 
+{
+    display: inline-block;
+    padding: 0px 5px;
+    letter-spacing: 2px;
+   
+
+}
+.featured-link a 
+{
+    text-decoration: none;
+    list-style-type: none;
+    color: black;
+
+}
+.featured-hr
+{
+    width: 100% !important;
+    height: auto;
+    line-height: 0.1em;
+    border-bottom: solid 1px gray;
+    margin: 10px 0px 20px;
+}
+
+.featured-hr span 
+{
+    background: #fff;
+    padding: 0px 10px;
+}
+.off-grid
+{
+    width: 100%;
+    height: 500px;
+    background-clip: border-box !important;
+    clip-path: fill-box;
+    display: flex;
+    flex-direction: row;
+    z-index: 5;
+}
+.off-grid img
+{
+    width: 50%;
+    height: 500px;
+    margin-top: -12%;
+
+}
+
+.carousel-caption1
+{
+    margin-left: 25%;
+    margin-top: 9% !important;
+    /* background-color: rgba(8, 5, 5, 0.1) !important; */
+    background-color: transparent;
+    color: white !important;
+    font-size: 48px;
+}
+.carousel-caption1 h5
+{
+
+z-index: 5;
+font-size: 40px;
+color: white !important;
+}
+.carousel-caption1 p 
+{
+ 
+    font-size: 25px;
+}
+
+.carousel-caption2 
+{
+    margin-left: 65%;
+    margin-top: 9% !important;
+    /* background-color: rgba(8, 5, 5, 0.1) !important; */
+    background-color: transparent;
+    color: white !important;
+    font-size: 48px;
+    
+}
+
+.our-client
+{
+    width: 100%;
+    height: 400px;
+    background: url('../images/Layer\ 21.png') no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-top: 15% !important;
+
+}
+.our-client-txt
+{
+    margin-top: -5%;
+}
+.our-client-section
+{
+    background-color: transparent !important;
+    margin-top: 0% !important;
+}
+
+.footer 
+{
+    width: 100%;
+    height: auto;
+    background-color: #1d1d1d !important;
+}
+.subscribe-btn 
+{
+    background-color: #e13ed7 !important;
+    width: auto;
+    height: auto;
+    padding: 5px;
+    border: none;
+    color: white !important;
+}
+.bi-facebook,.bi-twitter,.bi-whatsapp,.bi-instagram,.bi-youtube
+{
+    font-size: 22px;
+    letter-spacing: 8px;
+    color: #919191;
+}
+.footer-link li 
+{
+text-decoration: none;
+list-style-type: none;
+}
+.footer-link a 
+{
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+}
+@media only screen and (min-width:320px) and (max-width:480px)
+{
+    .search-box input 
+    {
+        width: 80% !important;
+        height: auto !important;
+    }
+    .header-navbar li 
+{
+    display: inline-block;
+    padding: 15px 5px;
+}
+    .navbar-link li 
+{
+    padding: 2px 20px;
+    display: block;
+
+}
+
+.carousel-inner 
+{
+    width: 100%;
+    height: 200px;
+}
+.carousel-inner img 
+{
+    width: 100%;
+    height: 200px;
+}
+.slider 
+{
+    width: 100% !important;
+    height: auto !important;
+    border: solid 0px black !important;
+}
+.slider img 
+{
+    min-width: 180% !important;
+    height: 100px !important;
+}
+}

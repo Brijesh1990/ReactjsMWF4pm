@@ -65,6 +65,13 @@
       "photo": "https://i1.wp.com/www.ux-republic.com/wp-content/uploads/2016/11/logo-redux.png?fit=500%2C500&ssl=1",
       "descriptions": "React Redux is best for state mangment",
       "date": "2024-05-29"
+    },
+    {
+      "id": "ef64",
+      "title": "Its very tough to select bootstrap and tailwinds to upgrade wd",
+      "photo": "https://media.sitepen.com/blog-images/2021/04/Floating-on-Tailwind-CSS.png",
+      "descriptions": "Tailwind CSS is an open-source CSS framework. The main feature of this library is that, unlike other CSS frameworks like Bootstrap, it does not provide a series of predefined classes for elements such as buttons or tables",
+      "date": "2024-06-12"
     }
   ]
 }

@@ -3,10 +3,18 @@ import ReactDOM from 'react-dom/client'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import 'bootstrap-icons/font/bootstrap-icons.css'
 import './assets/admin/css/style.css';
+import './assets/css/style.css';
+import './assets/css/media-1.css';
+import './assets/css/media-2.css';
+import './assets/css/media-3.css';
+import './assets/css/media-4.css';
+import './assets/css/blogs.css';
 
 import { BrowserRouter as Router,Routes,Route } from 'react-router-dom'
 // user panel routing
 import Layout from './Layout';
+import Blogs from './components/user/Blogs';
+import BlogsDetails from './components/user/BlogsDetails';
 import PageNotFound from './components/user/PageNotFound'
 // admin panel components
 import AdminLayout from './AdminLayout'
@@ -21,6 +29,8 @@ ReactDOM.createRoot(document.getElementById('hn-band-app')).render(
       <Routes>
           {/* customer panel routing  */}
           <Route path='/' element={<Layout />} />
+          <Route path='/blogs' element={<Blogs />} />
+          <Route path='/blogs-details/:id' element={<BlogsDetails />} />
           <Route path='*' element={<PageNotFound />} />
           {/* admin panel routing */}
           
