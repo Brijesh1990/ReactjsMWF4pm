@@ -1,0 +1,33 @@
+what is props i react js ?
+ props stands for properties 
+ props is used as arguments or parameter in any function i. called properties
+  function App(props)
+  {
+    return <h1>Hi my name is {props.attributes}</h1>
+  }
+
+  props are used to reused one components to another
+  props are immutable objects  (can not update or change the values of attributes)
+  Props never change the values of attributes
+  Props never update the values of its attributes 
+  Props are used to pass attributes in one components to another but never update the values.
+  
+  a) if we used function base components props pass as   
+
+  function App(props)
+  {
+    return <h1>Hi my name is {props.attributes}</h1>
+  }
+
+
+  b) if we used class base components props pass as   
+
+  class App extends Component
+  {
+    render(props)
+    {
+        return <h1>Hi my name is {this.props.attributes}</h1>
+    }
+    
+  }
+   

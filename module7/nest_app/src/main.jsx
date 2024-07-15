@@ -18,7 +18,9 @@ import AdminLogin from './components/admin/AdminLogin'
 import AddBlogs from './components/admin/AddBlogs'
 import ManageBlogs from './components/admin/ManageBlogs'
 import AddCategory from './components/admin/AddCategory';
-
+import AddSubCategory from './components/admin/AddSubCategory';
+import AddProducts from './components/admin/AddProducts';
+import ManageProducts from './components/admin/ManageProducts';
 import './assets/admin/css/style.css'
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
@@ -36,6 +38,10 @@ ReactDOM.createRoot(document.getElementById('root')).render(
         <Route path='/admin-login/add-blogs' element={<AddBlogs />} />
         <Route path='/admin-login/manage-blogs' element={<ManageBlogs />} />
         <Route path='/admin-login/add-category' element={<AddCategory/>} />
+        <Route path='/admin-login/add-subcategory' element={<AddSubCategory/>} />
+        <Route path='/admin-login/add-products' element={<AddProducts />} />
+        <Route path='/admin-login/manage-products' element={<ManageProducts />} />
+        
     </Routes>
    </BrowserRouter>
     

@@ -1,0 +1,58 @@
+body 
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: url('https://png.pngtree.com/thumb_back/fw800/background/20240209/pngtree-task-management-business-planning-app-illustration-vector-image_15623958.jpg') no-repeat;
+    background-size: cover !important;
+}
+.main-content
+{
+    width: 70% !important;
+    height: auto !important;
+    margin: auto !important;
+    background-color: white !important;    
+}
+.task
+{
+    width: 100%;
+    height: auto;
+    position: relative;
+    margin-top: 5%;
+    box-shadow: 2px 2px 2px 2px lightgray;
+    padding: 15px;
+    background-color: white;
+}
+.editIcon
+{
+color: green;
+font-size: 22px;
+margin-left: 22%;
+}
+.delIcon
+{
+color: red;
+font-size: 22px;
+margin-left: 22%;
+}
+
+.header 
+{
+    display: block;
+}
+.btn-clk
+{
+    color: white !important;
+}
+.spinnerContainer
+{
+    width: 70% !important;
+    height: auto;
+    margin-left: 25% !important;
+    font-size: 20px !important;
+}
+.spinner-grow
+{
+    font-size: 40px !important;
+    margin-left: 2% !important;
+}

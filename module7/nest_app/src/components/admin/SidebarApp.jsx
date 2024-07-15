@@ -31,10 +31,10 @@ export default function SidebarApp() {
       </a>
       <ul className="dropdown-menu text-black">
         <li>
-          <a href="/admin-login/add-sub">SubCategory <span className='bi bi-music-note-list'></span></a>
+          <a href="/admin-login/add-subcategory">SubCategory <span className='bi bi-music-note-list'></span></a>
         </li>
         <li>
-          <a href="/admin-login/manage-blogs">Manage SubCategory <span className='bi bi-music-note-list'></span></a>
+          <a href="/admin-login/manage-subcategory">Manage SubCategory <span className='bi bi-music-note-list'></span></a>
         </li>
       </ul>
     </li>
@@ -45,10 +45,10 @@ export default function SidebarApp() {
       </a>
       <ul className="dropdown-menu text-black">
         <li>
-          <a href="/admin-login/add-blogs">Add Products <span className='bi bi-music-note-list'></span></a>
+          <a href="/admin-login/add-products">Add Products <span className='bi bi-music-note-list'></span></a>
         </li>
         <li>
-          <a href="/admin-login/manage-blogs">Manage Products <span className='bi bi-music-note-list'></span></a>
+          <a href="/admin-login/manage-products">Manage Products <span className='bi bi-music-note-list'></span></a>
         </li>
       </ul>
     </li>

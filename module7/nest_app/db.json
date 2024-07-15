@@ -51,12 +51,79 @@
   ],
   "subcategory": [
     {
-      "id": "c5c8"
+      "id": "7f5f",
+      "categoryname": "Cake & Milk",
+      "subcategoryname": "Birthday cake",
+      "date": "2024-06-19"
+    },
+    {
+      "id": "b8be",
+      "categoryname": "Cake & Milk",
+      "subcategoryname": "Dairy milk cake",
+      "date": "2024-06-19"
+    },
+    {
+      "id": "de49",
+      "categoryname": "Snacks",
+      "subcategoryname": "Kurkure",
+      "date": "2024-06-19"
+    },
+    {
+      "id": "a6e6",
+      "categoryname": "Snacks",
+      "subcategoryname": "potato chips",
+      "date": "2024-06-19"
+    },
+    {
+      "id": "a25a",
+      "categoryname": "Snacks",
+      "subcategoryname": "banana chips",
+      "date": "2024-06-19"
+    },
+    {
+      "id": "f994",
+      "categoryname": "Snacks",
+      "subcategoryname": "katak batak",
+      "date": "2024-06-19"
     }
   ],
   "products": [
+   
     {
-      "id": "16fd"
+      "id": "d783",
+      "categoryname": "Cake & Milk",
+      "subcategoryname": "Birthday cake",
+      "productname": "red volvet",
+      "photo": "https://handletheheat.com/wp-content/uploads/2015/03/Best-Birthday-Cake-with-milk-chocolate-buttercream-SQUARE.jpg",
+      "qty": "1",
+      "oldprice": "455",
+      "newprice": "385",
+      "descriptions": "elebrate semi Christmas with this Cake. With the festive season approaching, it is the best time to get some cake and spread the joy. Enjoy the semi Christmas with your near and dear ones with this yummy cake. It will make your celebration a truly memorable one. The soft and spongy base with a beautiful red and white theme, covered with sprinkles and snowflakes and the flavour is what you will love most about this cake.\n\nNOTE: CupCakes does not come with the cake. You have to order separately",
+      "date": "2024-06-19"
+    },
+    {
+      "id": "9f99",
+      "categoryname": "Snacks",
+      "subcategoryname": "potato chips",
+      "productname": "potato chips",
+      "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8FpUd8tO21e6j5nBOppqeurFmktKlETy2Jw&s",
+      "qty": "1",
+      "oldprice": "25",
+      "newprice": "15",
+      "descriptions": "elebrate semi Christmas with this Cake. With the festive season approaching, it is the best time to get some cake and spread the joy. Enjoy the semi Christmas with your near and dear ones with this yummy cake. It will make your celebration a truly memorable one. The soft and spongy base with a beautiful red and white theme, covered with sprinkles and snowflakes and the flavour is what you will love most about this cake.\n\nNOTE: CupCakes does not come with the cake. You have to order separately",
+      "date": "2024-06-19"
+    },
+    {
+      "id": "ccf7",
+      "categoryname": "Snacks",
+      "subcategoryname": "Kurkure",
+      "productname": "kurkure",
+      "photo": "https://www.bigbasket.com/media/uploads/p/l/254362_17-bingo-potato-chips-tomato.jpg",
+      "qty": "1",
+      "oldprice": "35",
+      "newprice": "25",
+      "descriptions": "khao bingo",
+      "date": "2024-06-19"
     }
   ],
   "manage-contact": [

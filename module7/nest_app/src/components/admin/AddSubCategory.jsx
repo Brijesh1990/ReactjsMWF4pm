@@ -1,9 +1,95 @@
-import React from 'react'
+import React, {useState,useEffect, useRef } from 'react'
+import axios from 'axios'
+import Swal from 'sweetalert2';
+import SidebarApp from './SidebarApp';
+import AdminHeader from './AdminHeader';
 
-export default function AddBandSubCategory() {
-  return (
-    <div>
-      
-    </div>
-  )
+
+function AddSubCategory() {
+// fetch category inside of sub category
+const[mydata,setData]=useState([]);
+useEffect(()=>{
+// fetch data via axios.get 
+axios.get(`http://localhost:4000/category`).then((response)=>{
+
+setData(response.data);
+
+})
+},[mydata])
+
+// stored subcategory in subcategory api
+const categoryname =useRef("");    
+const subcategoryname =useRef("");
+const date =useRef("");
+
+const AddFormHandeler=((e)=>{
+e.preventDefault();
+
+var insert={
+categoryname:categoryname.current.value,
+subcategoryname:subcategoryname.current.value,
+date:date.current.value
 }
+
+axios.post(`http://localhost:4000/subcategory`,insert).then(()=>{
+Swal.fire({
+title: "Thanks",
+text: "Thanks your blogs addedd successfully",
+icon: "success"
+});
+
+});
+e.target.reset
+
+})
+
+
+return (
+<>
+
+<AdminHeader />
+{/* <!-- admin main content panel --> */}
+<div className="container-fluid admin-content"> 
+{/* <!-- admin sidebar panel --> */}
+<div className="row">
+<SidebarApp />
+<div className='col-md-8 p-5'>
+<h3 className='fs-2 mt-5'>Add Subcategory here</h3>
+<form onSubmit={AddFormHandeler}   encType='multipart/form-data'>
+
+<div className='form-group mt-4'>
+<select   ref={categoryname} className='form-control' >
+<option>-select category-</option>
+{mydata && mydata.map((items)=>{
+  return (
+    <>
+    <option value={items.categoryname}>{items.categoryname}</option>
+    </>
+  )
+})}
+</select>
+</div>
+
+
+<div className='form-group mt-4'>
+<input type='text' placeholder='SubCategoryname' ref={subcategoryname} className='form-control' />
+</div>
+
+
+<div className='form-group mt-4'>
+<input type='date' placeholder='Addded date' ref={date} className='form-control' />
+</div>
+
+<div className='form-group mt-4'>
+<input type='submit' value="Added SubCategory"  className='btn btn-md btn-dark text-white bg-dark' />
+</div>
+</form>
+</div>
+</div>
+</div>
+</>
+
+)
+}
+
+export default AddSubCategory
