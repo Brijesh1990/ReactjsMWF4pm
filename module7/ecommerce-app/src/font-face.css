@@ -1,0 +1,8 @@
+@font-face {
+    font-family: play-disp-italic;
+    src: url('../fonts/PlayfairDisplay-BlackItalic.ttf');
+}
+@font-face {
+    font-family: dejavu-sans;
+    src: url('../fonts/DejaVuSans-ExtraLight.ttf');
+}

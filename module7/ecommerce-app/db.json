@@ -1,0 +1,200 @@
+{
+  "addcategory": [
+    {
+      "categoryname": "Women's items",
+      "added_date": "2024-05-14",
+      "id": "3c3e"
+    },
+    {
+      "categoryname": "kid's items",
+      "added_date": "2024-05-14",
+      "id": "985b"
+    },
+    {
+      "categoryname": "Men's Items",
+      "added_date": "2024-05-18",
+      "id": "bc55"
+    },
+    {
+      "id": "8f26",
+      "categoryname": "electronics",
+      "added_date": "2024-05-25"
+    },
+    {
+      "categoryname": "electronics",
+      "added_date": "2024-06-05",
+      "id": "9bfd"
+    }
+  ],
+  "addsubcategory": [
+    {
+      "id": "7b22",
+      "categoryname": "kids items",
+      "subcategoryname": "kids shoes",
+      "added_date": "2024-05-14"
+    },
+    {
+      "id": "3e0f",
+      "categoryname": "womens items",
+      "subcategoryname": "womens shoes",
+      "added_date": "2024-05-14"
+    }
+  ],
+  "addproducts": [
+    {
+      "id": "dbd3",
+      "categoryname": "Women's items",
+      "subcategoryname": "womens shoes",
+      "productname": "addidas womens shoes",
+      "image": "https://m.media-amazon.com/images/I/71EjRyNYGsL._AC_UY1000_.jpg",
+      "oldprice": "3200",
+      "offerprice": "1450",
+      "qty": "1",
+      "descriptions": "good",
+      "added_date": "2024-04-22"
+    },
+    {
+      "categoryname": "kid's items",
+      "subcategoryname": "kids shoes",
+      "productname": "addidas kids shoes",
+      "image": "https://4.imimg.com/data4/MR/RV/MY-11928137/adidas-small-kids-shoes.jpg",
+      "oldprice": "1250",
+      "offerprice": "1050",
+      "qty": "1",
+      "descriptions": "good for kids",
+      "added_date": "2024-05-23",
+      "id": "d28d"
+    },
+    {
+      "id": "7429",
+      "categoryname": "Women's items",
+      "subcategoryname": "womens shoes",
+      "productname": "womens sports shoes",
+      "image": "https://5.imimg.com/data5/ANDROID/Default/2022/8/NH/KF/UV/125044124/product-jpeg-500x500.jpg",
+      "oldprice": "4500",
+      "offerprice": "3500",
+      "qty": "1",
+      "descriptions": "A pair of round toe white sneakers, has regular styling,\nLace-ups detail\nMesh upper\nCushioned footbed\nTextured and patterned outsole\nWarranty: 45 days\nWarranty provided by brand manufacturer",
+      "added_date": "2024-05-25"
+    },
+    {
+      "id": "703f",
+      "categoryname": "Women's items",
+      "subcategoryname": "womens shoes",
+      "productname": "basics shoes",
+      "image": "https://5.imimg.com/data5/SELLER/Default/2023/12/365430631/LB/YJ/FA/6215968/casual-women-shoes.jpg",
+      "oldprice": "450",
+      "offerprice": "305",
+      "qty": "1",
+      "descriptions": "A pair of round toe white sneakers, has regular styling,\nLace-ups detail\nMesh upper\nCushioned footbed\nTextured and patterned outsole\nWarranty: 45 days\nWarranty provided by brand manufacturer",
+      "added_date": "2024-05-25"
+    },
+    {
+      "id": "8e36",
+      "categoryname": "Women's items",
+      "subcategoryname": "womens shoes",
+      "productname": "womens basic shoes",
+      "image": "https://rukminim1.flixcart.com/image/300/300/xif0q/shoe/x/j/p/-original-imaghsf4unx2fhkm.jpeg",
+      "oldprice": "650",
+      "offerprice": "450",
+      "qty": "1",
+      "descriptions": "A pair of round toe white sneakers, has regular styling,\nLace-ups detail\nMesh upper\nCushioned footbed\nTextured and patterned outsole\nWarranty: 45 days\nWarranty provided by brand manufacturer",
+      "added_date": "2024-05-25"
+    },
+    {
+      "id": "c290",
+      "categoryname": "Women's items",
+      "subcategoryname": "womens shoes",
+      "productname": "womens regular shoes",
+      "image": "https://www.jiomart.com/images/product/original/rvkzphzhxj/doctor-extra-soft-memory-foam-women-s-shoes-for-walking-gym-training-casual-sports-slip-on-lightweight-lace-up-athletics-slipon-running-sneaker-for-ladies-and-girls-d-1001-navy-product-images-rvkzphzhxj-5-202211182014.jpg?im=Resize=(500,630)",
+      "oldprice": "350",
+      "offerprice": "200",
+      "qty": "1",
+      "descriptions": "A pair of round toe white sneakers, has regular styling",
+      "added_date": "2024-05-25"
+    },
+    {
+      "id": "af40",
+      "categoryname": "kid's items",
+      "subcategoryname": "kids shoes",
+      "productname": "kids sporty shoes",
+      "image": "https://images-cdn.ubuy.co.in/6350991d7ad90834cb030c35-girl-athletic-shoes-kids-unicorn.jpg",
+      "oldprice": "850",
+      "offerprice": "650",
+      "qty": "1",
+      "descriptions": "A pair of round toe white sneakers, has regular styling,\nLace-ups detail\nMesh upper\nCushioned footbed\nTextured and patterned outsole\nWarranty: 45 days\nWarranty provided by brand manufacturer",
+      "added_date": "2024-05-25"
+    },
+    {
+      "id": "03b3",
+      "categoryname": "kid's items",
+      "subcategoryname": "kids shoes",
+      "productname": "kids funky friends",
+      "image": "https://m.media-amazon.com/images/I/81tInmTTVAL._AC_UY1000_.jpg",
+      "oldprice": "450",
+      "offerprice": "425",
+      "qty": "1",
+      "descriptions": "A pair of round toe white sneakers, has regular styling,\nLace-ups detail\nMesh upper\nCushioned footbed\nTextured and patterned outsole\nWarranty: 45 days\nWarranty provided by brand manufacturer",
+      "added_date": "2024-05-25"
+    },
+    {
+      "id": "5084",
+      "categoryname": "kid's items",
+      "subcategoryname": "kids shoes",
+      "productname": "kids toys shoes",
+      "image": "https://images-cdn.ubuy.co.in/6445d8c5e83db614660c3b5f-winter-children-toddler-shoes-boys-and.jpg",
+      "oldprice": "400",
+      "offerprice": "225",
+      "qty": "1",
+      "descriptions": "A pair of round toe white sneakers, has regular styling,\nLace-ups detail\nMesh upper\nCushioned footbed\nTextured and patterned outsole\nWarranty: 45 days\nWarranty provided by brand manufacturer",
+      "added_date": "2024-05-25"
+    }
+  ],
+  "cart": [
+    {
+      "id": "a08d",
+      "image": "https://4.imimg.com/data4/MR/RV/MY-11928137/adidas-small-kids-shoes.jpg",
+      "productname": "addidas kids shoes",
+      "oldprice": "1250",
+      "offerprice1": "1050",
+      "offerprice2": "1050",
+      "qty": "1",
+      "descriptions": "good for kids"
+    }
+  ],
+  "contacts": [
+    {
+      "id": "d1a9"
+    }
+  ],
+  "feedbacks": [
+    {
+      "id": "f313"
+    }
+  ],
+  "reviews": [
+    {
+      "id": "37f9"
+    }
+  ],
+  "checkout": [
+    {
+      "id": "72ba"
+    }
+  ],
+  "addsliders": [
+    {
+      "id": "d5ef"
+    }
+  ],
+  "customers": [
+    {
+      "id": "9ac3"
+    }
+  ],
+  "blogs": [
+    {
+      "id": "d1e2"
+    }
+  ]
+}
